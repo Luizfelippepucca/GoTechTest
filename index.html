@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <title>Teste Front</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><img src="img/logo.svg"/></div>
+        <div class="menu">
+            <img src="img/menu.svg" id="menucel" onclick="abrir()" >
+            <ul id="lista" >
+                <li>   
+                    <input type="radio" name="menus" id="home" class="checado" checked/>
+                    <label for="home">Home</label>
+                </li> 
+                <li>
+                    <input type="radio" name="menus" id="sobre" class="checado"/>
+                    <label for="sobre">Sobre</label>
+                </li>
+                <li>
+                    <input type="radio" name="menus" id="portfolio" class="checado"/>
+                    <label for="portfolio">Portfolio</label>
+                </li>
+                <li>
+                    <input type="radio" name="menus" id="produto" class="checado"/>
+                    <label for="produto">Produto</label>
+                 </li>
+                 <li>
+                    <input type="radio" name="menus" id="carreira" class="checado"/>
+                    <label for="carreira">Carreira</label>
+                </li>
+                <li>
+                    <input type="radio" name="menus" id="blog" class="checado"/>
+                    <label for="blog">Blog</label>
+                </li>
+                <li><img src="img/close.png" id="fechamenu" onclick="fechar()"></li>
+            </ul>
+        </div>
+        <div class="busca">
+            <div class="pesquisar">
+                <input type="search" name="pesquisar" placeholder="Search Here" class="place"/>
+                <img src="img/search.svg"/>
+            </div>
+            <div class="contato">
+                <div class="btn">Contact Us</div>
+            </div>
+        </div>
+    </div>
+    <section class="conteudo">
+        <div class="slogan">
+            <strong>we create Simple Solution</strong> <p>For Your Complex task</p>
+        </div>
+        <div class="fraseslog">
+            Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec elaboraret 
+        </div>
+        <div class="btns">
+            <div class="btn">Our Works</div>
+            <div class="btn2" >Know More</div>
+        </div>
+        <div class="first-img">
+            <img src="img/imagem.png">
+        </div>
+        <div class="retangulo"></div>
+    </section>
+    <section class="conteudo2">
+        <div class="slogan2">
+            <div class="contslogan2">
+                <div class="titlecont2">The Process <p><strong>About Our Work</strong></p></div>
+                <div class="contcont2">
+                     Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, ea nec elaboraret interpretaris,
+                     sed diceret concludaturque ndo.Verear
+                </div>
+                <div class="contcont2">
+                    vel cu paulo doctus vidisse. Iudico dicant nostrum nec an
+               </div>
+               <div class="contcont2">
+                <div class="btn">Know More</div>
+           </div>
+               
+            </div>
+            <div class="imgcont2"><img src="img/imagem2.png"></div>
+        </div>
+        <div class="slogan2">
+            
+            <div class="imgcont2"><img src="img/imagem3.png"></div>
+            <div class="contslogan2">
+                <div class="titlecont2">We are here to <p><strong>always help </strong>you</p></div>
+                    <div class="contcont2">
+                        Lorem ipsum dolor sit amet, vel accumsan liberavisse ex, a elaboraret interpretaris, sed diceret concludaturque nasdo .
+                    </div>
+                    <div class="contcont2">
+                        vel cu paulo doctus vidsse. Iudico dicant nostrum nec aIn 
+                    </div>
+                
+               
+            </div>
+        </div>
+    </section>
+    <section class="form">
+            <div class="imgfundo"></div>
+            <div class="imgfundo2"></div>
+            <div class="imgfundo3"></div>
+            <div class="imgfundo3sobre"></div>
+            <div class="sloganform">Facing Problem? <p><strong>Lets Get In Touch Now</strong></p></div>
+            <div class="imgfundo4"></div>
+            <div class="imgfundo4sobre"></div>
+            <div class="imgfundo5"></div>
+            <div class="imgfundo6"></div>
+            <div class="pontilhado"><img src="img/pontilhado.svg"></div>
+            <div class="aviao"><img src="img/aviao.svg"></div>
+        <form>
+            <fieldset class="formcont">
+                <div class="alinhados">
+                    <div class="alinhadosrigth">
+                        <label>First name</label>
+                        <input type="text" placeholder="Robert Lee">
+                    </div> 
+                    <div class="alinhadosleft">
+                            <label >Last name</label>
+                            <input type="text" placeholder="Anderson" >
+                    </div>
+                </div>
+              <label>Your Email Adress</label>
+              <input type="mail" placeholder="Kevinjones@mail.com" class="mail">
+              <label>Which Related Problem You are Facing?</label>
+              <select >
+                  <option >Select one</option>
+                  <option class="resposta">Res 1</option>
+                  <option class="resposta">Res 2</option>
+                  <option class="resposta">Res 3</option>
+              </select>
+              <label>Type your message</label>
+              <textarea type="text" maxlength="400" placeholder="Write your Message..." class="msg"></textarea>
+             
+              <button type="submit" value="Send" id="Enviar">Send
+            </fieldset>
+        </form>
+        <div class="imagemM"><img src="img/mulher.png"></div>
+        <div class="imagemH"><img src="img/homem.png"></div>
+        <div class="imagemH2"><img src="img/homem2.png"></div>
+    </section>
+    <footer class="rodape">
+        <div class="logorod"><img src="img/logo.svg"/></div>
+        <div class="controda">
+            <div class="itens" id="itensrodcel" >
+                <div class="itenstitle">Contact Us</div>
+                <div class="icon"><img src="img/celular.svg"></div>
+                <div class="contitens">+(290) 520-7927</div>
+                <div class="icon"><img src="img/celular.svg"></div>
+                <div class="contitens">Dhaka,Bangladesh</div>
+                <div class="icon"><img src="img/mail.svg"></div>
+                <div class="contitens" id="mailcont">themefisher.com</div>
+            </div>
+            <div class="itens">
+                <div class="itenstitle">Our Company</div>
+                <div class="contitens2">About</div>
+                <div class="contitens2">Product</div>
+                <div class="contitens2">Portfolio</div>
+                <div class="contitens2">Carreer</div>
+                <div class="contitens2">Blog</div>
+            </div>
+            <div class="itens">
+                <div class="itenstitle2">Social Contacts</div>
+                <div class="contitens3">Facebook</div>
+                <div class="contitens3">Linkedin</div>
+                <div class="contitens3">Youtube</div>
+                <div class="contitens3">Vimeo</div>
+                <div class="contitens3">Skype</div>
+            </div>
+            <div class="itens">
+                <div class="itenstitle2">Address</div>
+                <div class="contitens4">Internet Systems Consortium, Inc. 950</div>
+                <div class="contitens3"></div>
+                <div class="contitens3" id="seguir" ><strong>Follow Us</strong></div>
+                <div class="contitens3" id="iconsocial">
+                    <div class="iconsocial1"><img src="img/facebook.svg"></div>
+                    <div class="iconsocial2"><img src="img/skype.svg"></div>
+                    <div class="iconsocial3"><img src="img/linkedin.svg"></div>
+                    <div class="iconsocial4"><img src="img/instagram.svg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <div class="conthomemS"></div>
+            <div class="rodapeslogan">Copyright@themafish2020</div>
+            <div class="conthomemS2"></div>
+        </div>
+    </footer>
+    <script>
+        function abrir(){
+            document.getElementById('menucel');
+            document.getElementById('lista').style.display ="block";
+           
+           
+        }
+        function fechar(){
+            document.getElementById('menucel');
+            document.getElementById('lista').style.display ="none";
+            
+        }
+        
+    </script>
+    
+</body>
+</html>
